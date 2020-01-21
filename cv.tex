@@ -1,0 +1,159 @@
+%% This template for a CV is adapted for EPFL thesis template
+
+\documentclass[twoside, a4paper, 11pt]{cv}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fourier}  % Utopia font-typesetting including mathematical formula compatible with newer TeX-Distributions (>2010)
+\usepackage{url}  % for clickable URLs
+
+\newcommand{\lieu}[1]{{#1}\ }
+\newcommand{\activite}[1]{\textbf{#1}\ }
+\newcommand{\comment}[1]{\textsl{#1}\ }
+
+\begin{document}
+
+\makeatletter
+\def\@maketitle{
+  \newpage
+  \begin{center}
+  \let \footnote \thanks
+    {\LARGE \@title \par}
+    \vskip 1.5em
+    {\large
+      \lineskip .5em
+      \begin{tabular}[t]{c}
+        \@author
+      \end{tabular}\par}
+    \vskip 1em
+    {\large \@date}
+  \end{center}
+  \par
+  \vskip 1.5em}
+\makeatother
+
+\title{Curriculum Vitae}
+\date{}
+
+\begin{chapeau}
+\begin{adresse}
+	First name Last name\\
+Address
+\end{adresse}
+\begin{etatcivil}
+	\begin{tabbing}
+	\\
+	Phone : +41 21 6934000\\
+	Website: \=\url{http://your-lab.epfl.ch/}\\ 
+	\>\url{http://people.epfl.ch/your.name}\\
+	E-mail : \texttt{your.name@epfl.ch}
+	\end{tabbing}
+\end{etatcivil}
+\vspace{0.6cm}
+
+\end{chapeau}
+
+	%%%%%%%%%%%%%%%%%%
+	% Bloc rubriques %
+	%%%%%%%%%%%%%%%%%%
+	
+\begin{rubriquetableau}[3cm]{Education}
+
+2011--2015 	& \activite{PhD}
+	\lieu{EPFL}\\
+	
+2009 	& \activite{Another education, e.g., a MSc}
+	\lieu{Another university, Another country}\\
+	& Title : A title.\\
+	& Thesis supervisor : A supervisor.\\[1ex]
+	
+2003--2009 	& \activite{A longer education}
+	\lieu{EPFL}\\[1.5ex]
+
+\end{rubriquetableau}
+
+\begin{rubriquetableau}[3cm]{Research projects} 
+
+2012--2015 	& \activite{Project name}
+	\lieu{Swiss National Science Foundation grant}\\
+	& Project description.\\
+
+\end{rubriquetableau}
+
+\begin{rubrique}{Publications}
+
+\noindent\activite{Papers in international journal}
+
+A. Author, A. Author. Title, in Journal, vol. 44, p. 146 - 170, 2014. doi:10.1016/j.trc.2014.03.015\vspace{0.2cm}
+
+\noindent\activite{Book chapter}
+
+A book chapter\vspace{0.2cm}
+
+\noindent\activite{Papers in conference proceedings}
+
+A conference proceeeding.\vspace{0.2cm}
+
+\noindent\activite{Technical reports (selection)}
+
+A technical report.\vspace{0.2cm}
+
+\noindent\activite{Posters (selection)}
+
+A poster.\vspace{0.2cm}
+
+\noindent\activite{Seminars (selection)}
+
+A seminar.\vspace{0.2cm}
+
+\end{rubrique}
+
+\begin{rubrique}{Teaching}
+
+\noindent\activite{Lecturer}
+
+\begin{itemize}
+\item Course name
+
+\emph{Course description.}
+
+\end{itemize}
+
+\noindent\activite{Teaching assistant for courses}
+\begin{itemize}
+\item Another course
+
+\emph{Another description.}
+
+\end{itemize}
+
+\noindent\activite{Supervisor for Master theses}
+\begin{itemize}
+\item Mater thesis title, Master thesis, Name of the student (Section of the student), 2015
+\end{itemize}
+
+\noindent\activite{Supervisor for semester projects}
+\begin{itemize}
+\item Title of the semester project, Name of the student (Section of the student), 2014.
+\end{itemize}
+\end{rubrique}
+
+\begin{rubrique}{Reviewing}
+\begin{itemize}
+\item A journal
+\end{itemize}
+\end{rubrique}
+
+\begin{rubrique}{Awards and distinctions}
+\begin{itemize}
+\item Award name
+
+\emph{Award description.}
+\end{itemize}
+\end{rubrique}
+
+\begin{rubrique}{Research data}
+Reference to dataset.
+\end{rubrique}
+
+\end{document} 
