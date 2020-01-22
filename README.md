@@ -1,4 +1,4 @@
-# Curriculum vitae for EPFL Thesis template in LaTeX
+# Curriculum vitae for EPFL PhD Thesis template in LaTeX
 
 <a href="https://www.epfl.ch/education/phd/regulations/internal-regulations/">EPFL PhD theses must include the curriculum vitae (CV) of the doctoral student at the end of the manuscript</a>. The <a href="https://github.com/glederrey/EPFL_thesis_template">EPFL thesis template</a> in LaTeX includes the CV as an external PDF. The EPFL thesis template does not use the standard Times New Roman font, but a font called Utopia. Moreover, it uses specific margins.
 
