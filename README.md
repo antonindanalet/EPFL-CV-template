@@ -7,3 +7,5 @@ Here is a LaTeX template for the CV with Utopia font and the same margins as the
 Just compile it separately and copy the file "cv.pdf" in the "tail" folder of the EPFL thesis template. When compiling the EPFL thesis template, page numbers will be automatically added.
 
 Example: my CV at the end of my <a href="https://infoscience.epfl.ch/record/214544/files/EPFL_TH6806_2.pdf">PhD thesis</a>
+
+<i>This LaTeX template was originally <a href="https://blogs.epfl.ch/article/43595">posted on my EPFL blog on September 22, 2015</a></i>
