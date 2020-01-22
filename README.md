@@ -1,6 +1,6 @@
-# CV for EPFL Thesis template in LaTeX
+# Curriculum vitae for EPFL Thesis template in LaTeX
 
-<a href="https://www.epfl.ch/education/phd/regulations/internal-regulations/">EPFL PhD theses must include the CV of the doctoral student at the end of the manuscript</a>. The <a href="https://github.com/glederrey/EPFL_thesis_template">EPFL thesis template</a> in LaTeX includes the CV as an external PDF. The EPFL thesis template does not use the standard Times New Roman font, but a font called Utopia. Moreover, it uses specific margins.
+<a href="https://www.epfl.ch/education/phd/regulations/internal-regulations/">EPFL PhD theses must include the curriculum vitae (CV) of the doctoral student at the end of the manuscript</a>. The <a href="https://github.com/glederrey/EPFL_thesis_template">EPFL thesis template</a> in LaTeX includes the CV as an external PDF. The EPFL thesis template does not use the standard Times New Roman font, but a font called Utopia. Moreover, it uses specific margins.
 
 Here is a LaTeX template for the CV with Utopia font and the same margins as the EPFL thesis template. It can easily be adapted to different needs by adding other "rubrique" (for lists) and other "rubriquetableau" (for anti-chronological elements, with a column for years). To force LaTeX to push a "rubrique"/"rubriquetableau" to the next page, use \newpage.
 
